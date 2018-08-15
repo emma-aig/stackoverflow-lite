@@ -1,0 +1,282 @@
+a{
+    text-decoration: none;
+    color: #3399ff;
+}
+.div_container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+#first_section{
+    min-height: 400px;
+    padding: 0;
+    margin: 0;
+    background:url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #3399ff;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+    font-size: x-large;
+    list-style: none;
+} 
+
+
+#second_section{ 
+    color: #3399ff;
+    background-color: #252525; 
+}
+
+.div_container_second div{ 
+    margin-top: 23px;
+    margin-bottom: 23px;
+    float: left;
+}  
+.div_number_of_questions{
+    width: 20%;
+}
+.div_number_of_answers{
+    width: 20%;
+}
+.div_questions_asked{
+    width: 20%;
+}
+.div_recent_questions{
+    width: 20%;
+}
+
+input{
+    text-align: center;
+}
+ 
+
+textarea{
+    width: 100%;
+    height: 85px;
+    border: solid 1px;
+    border-color: #ddd;
+    border-radius: 8px; 
+    font-size: 18px;
+    resize: none;
+}
+ 
+
+.btn_ask_question{
+    border-radius: 4px; 
+    padding: 0 10% 0 10%; 
+    height: 55px;   
+    margin-top: 6%;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+
+button{  
+    height: 40px;
+    border: 0;
+    border-radius: 0 8px 8px 0;
+    background-color: #3399ff; 
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.div_signup input{ 
+    width: 100%;
+    height: 40px;
+    border-radius: 8px 0 0 8px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #ddd;
+    margin-bottom: 12px;
+
+}
+.div_signup button{ 
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #3399ff; 
+    color: #fff; 
+}
+
+.alt{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+button:hover{
+    background-color: #6699ff;  
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+}
+#third_sestion{
+    text-align: justify; 
+    color: #646363; 
+}
+#third_sestion .div_container #left_box{
+    width: 25%;
+    background-color: #fcfcfc;
+    float: left;
+    padding: 10px;
+}
+#third_sestion .div_container #middle_box{
+    width: 50%;   
+    float: left; padding: 10px;
+}
+#third_sestion .div_container #right_box{
+    width: 25%;
+    background-color: #fcfcfc;
+    float: left;
+    padding: 10px;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #252525;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media(max-width: 960px){
+ 
+    .div_container_second div{
+        width: 100%;
+        margin-bottom: 0px;        
+    }
+    
+    .div_recent_questions{
+        padding-bottom: 12px;
+    }
+}
+
+
+
+@media(max-width: 860px){
+    header{
+        padding-bottom: 20px;
+    }
+
+    header #site_caption, header nav{
+        float: none; 
+        width: 100%;  
+    }
+ 
+
+    #third_sestion .div_container #left_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #middle_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #right_box{
+        width: 100%;
+        float: none;
+    }
+
+    header nav ul li{
+        padding: 0 1px 0 10px;
+        text-align: center;  
+    }
+    #site_caption img{
+        width: 55%;
+    }        
+
+    .div_container_second div{
+        width: 100%;       
+    }
+}
+
+@media(max-width: 660px){ 
+    header{
+        padding-bottom: 20px;
+    }
+
+    header #site_caption, header nav{
+        float: none; 
+        width: 100%;  
+    } 
+    #third_sestion .div_container #left_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #middle_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #right_box{
+        width: 100%;
+        float: none;
+    }
+
+    header nav ul li{
+        padding: 0 1px 0 10px;
+        text-align: center;  
+    }
+    #site_caption img{
+        width: 65%;
+    }
+
+    .div_container_second div{
+        width: 100%;        
+    }
+}
+
+
+@media(max-width: 560px){
+
+    header{
+        padding-bottom: 20px;
+    }
+    #main_container{
+        width: 100%;     
+        margin: auto;
+        overflow: hidden;  
+    }
+
+    header #site_caption, header nav{
+        float: none; 
+        width: 100%;  
+    }
+
+ 
+
+    #third_sestion .div_container #left_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #middle_box{
+        width: 100%;
+        float: none;
+    }
+    #third_sestion .div_container #right_box{
+        width: 100%;
+        float: none;
+    }
+
+    header nav ul li{
+        padding: 0 1px 0 10px;
+        text-align: center;  
+    }
+    #site_caption img{
+        width: 80%;
+    }
+
+    .div_container_second div{
+        width: 100%;       
+    }
+    .div_recent_questions{
+        padding-bottom: 12px;
+    }
+
+
+}

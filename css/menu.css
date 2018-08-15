@@ -1,0 +1,61 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.div_header{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+header{
+  background-color: #252525;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ff9999 1px solid;
+}
+
+header a{
+  text-decoration: none;;
+  color: #fff;
+  font-size: 15px;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #site_caption{
+  float: left;
+}
+
+header #site_caption h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 14px;
+}
+ 
+header .current_link a{
+    color: #ff9999;
+}
+
+header a:hover{
+    color: #ff9999;
+}
