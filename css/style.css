@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #5a91ff;
+    color: #6699ff;
 }
 .div_container {
     width: 90%;
@@ -15,7 +15,7 @@ a{
     background-size: cover;
     background-position: center;
     width: 100%;
-    color: #5a91ff; 
+    color: #6699ff; 
     text-shadow: #000 0.1em 0.1em 0.1em;
     font-size: x-large;
     list-style: none;
@@ -23,7 +23,7 @@ a{
 
 
 #second_section{ 
-    color: #5a91ff;
+    color: #6699ff;
     background-color: #252525; 
 }
 
@@ -78,7 +78,7 @@ button{
     height: 40px;
     border: 0;
     border-radius: 0 8px 8px 0;
-    background-color: #5a91ff; 
+    background-color: #6699ff; 
     color: #fff;
     font-size: 20px;
 }
@@ -100,7 +100,7 @@ button{
     height: 40px;
     border: 0;
     border-radius: 5px;
-    background-color: #5a91ff; 
+    background-color: #6699ff; 
     color: #fff; 
 }
 
@@ -111,7 +111,7 @@ button{
 
 
 button:hover{
-    background-color: #5a91ff;  
+    background-color: #6699ff;  
     cursor: pointer;
 }
 *{
