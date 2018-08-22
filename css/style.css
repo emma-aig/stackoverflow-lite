@@ -29,30 +29,6 @@ footer{
     
 } 
 
-
-/*#middle_box{
-    margin-top: 8%;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #first_section{
     min-height: 400px;
     padding: 0;
@@ -60,9 +36,7 @@ footer{
     background:url('../images/bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    /*color: #5a91ff;*/
-    /*color: #f410cb;*/
+    width: 100%; 
     color: #fff;
     text-shadow: #000 0.1em 0.1em 0.1em;
     font-size: x-large;
@@ -214,11 +188,10 @@ margin-bottom: 8px;
 
 
 button:hover{
-    /*background-color: #5a91ff;*/  
-    background-color: #d4639c;
-    /*background: linear-gradient(#9e1e87, #9e1e87);*/
+     background-color: #d4639c; 
     cursor: pointer;
 }
+
 *{
     box-sizing: border-box;
 }
@@ -251,15 +224,8 @@ button:hover{
      
     header nav ul li{
         padding: 0 1px 10px 10px;
-        text-align: center;  
- 
-    } 
-/*    nav li{
-        background-color: #646363;
-        width: 100%;
-        text-align: left;
-        
-    }*/
+        text-align: center;   
+    }  
 }
 
 @media(max-width: 960px){
@@ -421,6 +387,5 @@ margin-top: 15px;
     .div_recent_questions{
         padding-bottom: 12px;
     }
-
 
 }

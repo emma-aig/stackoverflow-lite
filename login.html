@@ -21,14 +21,15 @@
                 <nav>
                     <ul>
                         <li><a href="index.html" title="Home"> Home </a></li>
-                        <li><a href="login.html" title="Login"> Login </a></li>
+                        <li class="current_link"><a href="login.html" title="Login"> Login </a></li>
                         <li><a href="signup.html" title="Sign Up"> Sign Up </a></li>
-                        <li class="current_link"><a href="viewquestions.html" title="View Questions"> View Questions </a></li>
+                        <li><a href="viewquestions.html" title="View Questions"> View Questions </a></li>
                         <li><a href="userprofile.html" title="User Profile"> User Profile </a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        
          <div class="main-cover">
             <div class="main-div" id="main_container"> 
 
@@ -52,19 +53,20 @@
         <section id="third_sestion"> 
             <div class="div_container">
                 <div id="left_box" class="box">
-                    
+  
                 </div>
-                <div id="middle_box" class="box box_ask_question">
+                <div id="middle_box" class="box box_signup_login">
                     <div class="div_signup">
                         
-                    <h2> Ask A Question </h2>
-                      
-                    <textarea class="txt_ask_question" placeholder="Type your question"></textarea>
-                        <button type="button" class="btn_signup btn_ask">Submit</button> 
-                     </div>
+                    <h2>  Login </h2>
+                        <input type="email" id="txt_email" placeholder="Enter email address"/>
+                        <input type="password" id="txt_password" placeholder="Create password"/>
+                        <button type="button" class="btn_signup">Login</button>
+                        <div class="signup_login">        Don't have an account? <a href="signup.html" title="Sign Up"> Sign Up</a> </div>
+                    </div> 
                 </div>
                 <div id="right_box" class="box">
-                   
+ 
                 </div>
             </div>
         </section>
